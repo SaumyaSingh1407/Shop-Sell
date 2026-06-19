@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Customer Signup</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+    font-family:Poppins;
+    background:linear-gradient(to bottom,#fff0f5,#f6d6e4);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.signup-box{
+    background:white;
+    width:350px;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.signup-box h2{
+    text-align:center;
+    color:#b4004e;
+    margin-bottom:20px;
+}
+
+.signup-box input{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+.signup-btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:25px;
+    background:linear-gradient(45deg,#ff4e8d,#b4004e);
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.signup-btn:hover{
+    opacity:0.9;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="signup-box">
+
+<h2>Customer Signup 🛍</h2>
+
+<form>
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="password" placeholder="Password" required>
+
+<input type="text" placeholder="Delivery Address" required>
+
+<button class="signup-btn">Create Account</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

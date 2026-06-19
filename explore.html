@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Explore Products - Shop & Sell</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f6f6f6;
+}
+
+/* Header */
+
+.header{
+background:#800020;
+color:white;
+padding:18px 40px;
+font-size:24px;
+font-weight:600;
+}
+
+/* Category Title */
+
+.category-title{
+margin:40px 40px 20px;
+font-size:22px;
+color:#800020;
+}
+
+/* Product Grid */
+
+.products{
+padding:0 40px 40px;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+justify-content: center;
+}
+
+/* Product Card */
+
+.product-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+
+    /* Fixed or max size */
+    width: 280px;        /* Set the card width */
+    height: 440px;       /* Set the card height */
+    
+    /* Or use max-width and max-height if you want responsive but limited size */
+    /* max-width: 280px; */
+    /* max-height: 400px; */
+}
+
+.product-card:hover{
+transform:translateY(-6px);
+}
+
+.product-card img {
+    width: 100%;       /* Full width of the card */
+    height: 270px;     /* Fixed height for uniform images */
+    object-fit: cover; /* Crop image nicely */
+    border-radius: 10px;
+}
+
+
+.product-card h3{
+font-size:16px;
+margin:10px 0;
+}
+
+.price{
+color:#b4004e;
+font-weight:600;
+margin-bottom:10px;
+}
+
+.cart-btn{
+padding:10px 18px;
+border:none;
+border-radius:25px;
+background:linear-gradient(45deg,#ff4e8d,#b4004e);
+color:white;
+cursor:pointer;
+}
+
+.cart-btn:hover{
+opacity:0.9;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+Shop & Sell - Explore Products
+</div>
+
+<!-- Men's Clothing -->
+
+<h2 class="category-title">Men's Clothing</h2>
+
+<section class="products">
+
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+<h3>Men's Casual T-Shirt</h3>
+<p class="price">₹799</p>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2025/DECEMBER/8/5BcK5kkZ_1535097e5c5b461184cb7a673e8ed7cd.jpg">
+<h3>Men's Denim Jacket</h3>
+<p class="price">₹2499</p>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="https://rajubhaihargovindas.com/12351-large_default/japs-green-pure-cotton-formal-shirt.jpg">
+<h3>Formal Shirt</h3>
+<p class="price">₹1299</p>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="https://rajubhaihargovindas.com/12351-large_default/japs-green-pure-cotton-formal-shirt.jpg">
+<h3>Formal Shirt</h3>
+<p class="price">₹1299</p>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+</section>
+
+<!-- Women's Clothing -->
+
+<h2 class="category-title">Women's Clothing</h2>
+
+<section class="products">
+
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1520975661595-6453be3f7070">
+<h3>Women's Summer Dress</h3>
+<p class="price">₹1799</p>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d">
+<h3>Women's Handbag</h3>
+<p class="price">₹1499</p>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c">
+<h3>Women's Kurti</h3>
+<p class="price">₹999</p>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c">
+<h3>Women's Kurti</h3>
+<p class="price">₹999</p>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+</section>
+
+<!-- Kids Clothing -->
+
+<h2 class="category-title">Kids Clothing</h2>
+
+<section class="products">
+
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9">
+<h3>Kids T-Shirt</h3>
+<p class="price">₹499</p>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1519681393784-d120267933ba">
+<h3>Kids Winter Jacket</h3>
+<p class="price">₹1299</p>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f">
+<h3>Kids Party Dress</h3>
+<p class="price">₹899</p>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f">
+<h3>Kids Party Dress</h3>
+<p class="price">₹899</p>
+<button class="cart-btn">Add to Cart</button>
+</div>
+
+</section>
+
+</body>
+</html>
